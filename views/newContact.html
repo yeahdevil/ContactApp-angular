@@ -4,9 +4,9 @@
     </h3>
     <br>
 <form ng-submit="addNewContact()">
-    <input type="text" placeholder="Enter Name" ng-model="newContact.name" />
+    <input type="text" placeholder="Enter Name" ng-model="newContact.name" required/>
     <br>
-    <input type="text" placeholder="Enter Contact" ng-model="newContact.contact" />
+    <input type="text" placeholder="Enter Contact" ng-model="newContact.contact" required maxlength="10" minlength="10"/>
     <br>
     <input type="submit" placeholder="Save" />
 </form>
