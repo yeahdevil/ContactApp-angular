@@ -4,12 +4,12 @@ var app = angular.module("contactsApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/list", {
-            templateUrl: "/views/contactList.html",
+            templateUrl: "./views/contactList.html",
             controller: "contactList"
 
         })
         .when("/add", {
-            templateUrl: "/views/newContact.html",
+            templateUrl: "./views/newContact.html",
             controller: "addNewContact"
         })
         .otherwise({
