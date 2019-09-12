@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <script src="./lib/ng.js"></script>
+    <script src="./lib/ng-route.js"></script>
+    <script src="./script/index.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body ng-app="contactsApp">
+    <ng-include src="'/views/nav.html'"></ng-include>
+    <main ng-view="myView"> </main>
+</body>
+</html>
