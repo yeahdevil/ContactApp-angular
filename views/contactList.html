@@ -8,7 +8,7 @@
         <th>Delete</th>
     </tr>
   <tr></tr>
-    <tr ng-repeat="contact in contacts | orderBy:order">
+    <tr class="list" ng-repeat="contact in contacts | orderBy:order">
             <td>{{contact.name}}</td>
             <td>{{contact.contact}}</td>
             <td><button class="btn" ng-click="removeContact(contact)">X</button></td>

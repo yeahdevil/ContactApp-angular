@@ -1,4 +1,4 @@
-var app = angular.module("contactsApp", ["ngRoute"]);
+var app = angular.module("contactsApp", ["ngRoute","ngAnimate"]);
 
 //routes
 app.config(function ($routeProvider) {
